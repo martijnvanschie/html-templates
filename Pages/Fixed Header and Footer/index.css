@@ -1,0 +1,32 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	height: 64px;
+	position: relative;
+	z-index: 100;
+	background: purple;
+}
+  
+main {
+	width: 100% !important;
+	height: calc(100vh - 128px) !important;
+	display: block;
+	overflow: auto;
+}
+
+footer {
+	height: 64px;
+	position: relative;
+	z-index: 100;
+	background: purple;
+	align-self: flex-end;
+}
+
+header div{
+	font: 
+	margin: auto;
+	width: 50px;
+}
